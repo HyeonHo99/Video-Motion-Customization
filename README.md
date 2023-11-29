@@ -1,2 +1,2 @@
-# Video-Motion-Customizatin
-VMC: This repository is the official implementation of "One-Shot Video Motion Customization using Temporal Attention Adaption for Text-to-Video Diffusion Models"
+# Video-Motion-Customization
+This repository is the official implementation of [VMC](https://video-motion-customization.github.io/).
