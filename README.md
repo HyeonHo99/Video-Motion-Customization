@@ -5,7 +5,7 @@ This repository is the official implementation of <strong>VMC</strong>, a novel 
 [![Project Website](https://img.shields.io/badge/Project-Website-orange)](https://video-motion-customization.github.io/)
 
 
-## :memo: News
+## News
 * [2023.11.30] Initial Code Release  
   (Revisions may occur, so stay tuned!)
 
