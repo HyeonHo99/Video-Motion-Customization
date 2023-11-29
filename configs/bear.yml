@@ -1,0 +1,28 @@
+pretrained_t2v_path: "showlab/show-1-base"
+vid_name: "bear"
+logdir: "./outputs"
+train_steps: 400
+validation_steps: 100
+seed: 12345
+lr: 1e-4
+num_inv_steps: 75
+
+train_dataset:
+  path: "video_images/${..vid_name}"
+  prompt: "a brown bear is walking"
+  n_sample_frame: 8
+  sampling_rate: 1
+  stride: 1
+
+validation_sample_logger:
+  prompts: [
+    "a panda bear is walking",
+    "a panda bear is walking on the rock",
+    "a tiger is walking on the snow",
+  ]
+  clip_length: "${..train_dataset.n_sample_frame}"
+  sample_seeds: [12345]
+  num_inference_steps: 75
+  guidance_scale: 9.0
+  height: 40
+  width: 64

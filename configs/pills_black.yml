@@ -1,0 +1,33 @@
+pretrained_t2v_path: "showlab/show-1-base"
+vid_name: "pills_black"
+logdir: "./outputs"
+train_steps: 400
+validation_steps: 100
+seed: 12345
+lr: 1e-4
+num_inv_steps: 75
+
+train_dataset:
+  path: "video_images/${..vid_name}"
+  prompt: "pills are falling."
+  n_sample_frame: 8
+  sampling_rate: 1
+  stride: 1
+
+validation_sample_logger:
+  prompts: [
+    "colorful confetti are falling",
+    "stones are falling, underwater",
+    "gem stones are falling",
+    "snows are falling",
+    "feathers are falling",
+    "stars are falling",
+    "maple leaves are falling",
+  ]
+  clip_length: "${..train_dataset.n_sample_frame}"
+  sample_seeds: [12345]
+  num_inference_steps: 75
+  guidance_scale: 9.0
+  height: 40
+  width: 64
+
