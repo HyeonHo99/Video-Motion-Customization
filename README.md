@@ -6,9 +6,24 @@ This repository is the official implementation of <strong>VMC</strong>, a novel 
 
 
 ## :memo: News
-* [2023.11.30] Initial Code Release. (Revisions may occur)
+* [2023.11.30] Initial Code Release  
+  (Revisions may occur, so stay tuned!)
 
+## Setup
+### Requirements
 
+```shell
+pip install -r requirements.txt
+```
+
+## Usage 
+
+The following command will run "train & inference" at the same time:
+
+```bash
+accelerate launch train_inference.py --config configs/car_forest.yml
+```
+Other scripts will be uploaded.
 
 ## Data
 * PNG files: [Link to Google Drive Folder](https://drive.google.com/drive/u/2/folders/1L4dIqeK52lGBuxIKAEUzZgOEP95dz7AC)
