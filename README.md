@@ -1,5 +1,5 @@
 # Video-Motion-Customization
-This repository is the official implementation of <strong>VMC</strong>, a novel framework for Video Motion Customization.
+This repository is the official implementation of ["One-Shot Video Motion Customization using Temporal Attention Adaption for Text-to-Video Diffusion Models."](#)
 <br>
 
 [![Project Website](https://img.shields.io/badge/Project-Website-orange)](https://video-motion-customization.github.io/)
@@ -31,7 +31,7 @@ Other scripts will be uploaded.
 
 
 ## Shoutouts
-VMC builds upon a great open-source project on Video Diffusion Models: [Show-1](https://showlab.github.io/Show-1/) 
-<br>Thank you for open-sourcing!
+VMC builds upon an open-source project on cascaded Video Diffusion Models, namely [Show-1](https://showlab.github.io/Show-1/) 
+<br><i>Thank you for open-sourcing!</i>
 
 
