@@ -1,13 +1,18 @@
 # Video-Motion-Customization
-This repository is the official implementation of ["One-Shot Video Motion Customization using Temporal Attention Adaption for Text-to-Video Diffusion Models."](#)
+This repository is the official implementation of ["VMC: One-Shot Video Motion Customization using Temporal Attention Adaption for Text-to-Video Diffusion Models."](#)
 <br>
 
 [![Project Website](https://img.shields.io/badge/Project-Website-orange)](https://video-motion-customization.github.io/)
 
+<p align="center">
+<img src="https://video-motion-customization.github.io/static/images/figure-overview.png" width="100%"/>  
+<br>
+<em>Given an input video with any type of motion patterns, our framework, VMC fine-tunes only the Keyframe Generation Module within hierarchical Video Diffusion Models for motion-customized video generation.</em>
+</p>
 
 ## News
 * [2023.11.30] Initial Code Release  
-  (Revisions may occur, so stay tuned!)
+  (Additional codes will be uploaded.)
 
 ## Setup
 ### Requirements
@@ -23,15 +28,16 @@ The following command will run "train & inference" at the same time:
 ```bash
 accelerate launch train_inference.py --config configs/car_forest.yml
 ```
-Other scripts will be uploaded.
+*Additional scripts of 'train_only' and 'inference_with_pretrained' will be uploaded too.
 
 ## Data
-* PNG files: [Link to Google Drive Folder](https://drive.google.com/drive/u/2/folders/1L4dIqeK52lGBuxIKAEUzZgOEP95dz7AC)
-* GIF files: [Link to Google Drive Folder](https://drive.google.com/drive/u/2/folders/1GUDnosOkYQ50-1bHHIBitRMeamkd2qao)
+* PNG files: [Google Drive Folder](https://drive.google.com/drive/u/2/folders/1L4dIqeK52lGBuxIKAEUzZgOEP95dz7AC)
+* GIF files: [Google Drive Folder](https://drive.google.com/drive/u/2/folders/1GUDnosOkYQ50-1bHHIBitRMeamkd2qao)
 
 
 ## Shoutouts
-VMC builds upon an open-source project on cascaded Video Diffusion Models, namely [Show-1](https://showlab.github.io/Show-1/) 
-<br><i>Thank you for open-sourcing!</i>
+VMC directly employs an open-source project on cascaded Video Diffusion Models, [Show-1](https://github.com/showlab/Show-1), along with [DeepFloyd IF](https://github.com/deep-floyd/IF).  
+Additionally, this code builds upon [Diffusers](https://github.com/huggingface/diffusers) and we referenced the code logic of [Tune-A-Video](https://github.com/showlab/Tune-A-Video)
+<br><i>Thanks all for open-sourcing!</i>
 
 
