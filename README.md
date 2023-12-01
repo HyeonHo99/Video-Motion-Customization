@@ -34,6 +34,46 @@ accelerate launch train_inference.py --config configs/car_forest.yml
 * PNG files: [Google Drive Folder](https://drive.google.com/drive/u/2/folders/1L4dIqeK52lGBuxIKAEUzZgOEP95dz7AC)
 * GIF files: [Google Drive Folder](https://drive.google.com/drive/u/2/folders/1GUDnosOkYQ50-1bHHIBitRMeamkd2qao)
 
+## Results
+<table class="center">
+  <tr>
+    <td style="text-align:center;"><b>Input Videos</b></td>
+    <td style="text-align:center;" colspan="1"><b>Output Videos</b></td>
+  </tr>
+  <tr>
+    <td><img src="https://video-motion-customization.github.io/static/gifs/sharks_swimming/input.gif"></td>
+    <td><img src="https://video-motion-customization.github.io/static/gifs/sharks_swimming/spaceships_space.gif"></td>
+  </tr>
+  <tr>
+    <td><img src="https://video-motion-customization.github.io/static/gifs3/car_forest/input.gif"></td>
+    <td><img src="https://video-motion-customization.github.io/static/gifs3/car_forest/tank_snow.gif"></td>
+  </tr>
+  <tr>
+    <td><img src="https://video-motion-customization.github.io/static/gifs4/plane_sky3/input.gif"></td>
+    <td><img src="https://video-motion-customization.github.io/static/gifs4/plane_sky3/shark_under.gif"></td>
+  </tr>
+  <tr>
+    <td><img src="https://video-motion-customization.github.io/static/gifs2/bird_forest/input.gif"></td>
+    <td><img src="https://video-motion-customization.github.io/static/gifs2/bird_forest/phoenix_lava.gif"></td>
+  </tr>
+  <tr>
+    <td><img src="https://video-motion-customization.github.io/static/gifs/skiing/input.gif"></td>
+    <td><img src="https://video-motion-customization.github.io/static/gifs/skiing/astronaut_underwater.gif"></td>
+  </tr>
+  <tr>
+    <td><img src="https://video-motion-customization.github.io/static/gifs/child_bike/input.gif"></td>
+    <td><img src="https://video-motion-customization.github.io/static/gifs/child_bike/monkey.gif"></td>
+  </tr>
+  <tr>
+    <td><img src="https://video-motion-customization.github.io/static/gifs4/pills_black/input.gif"></td>
+    <td><img src="https://video-motion-customization.github.io/static/gifs4/pills_black/stars.gif"></td>
+  </tr>
+  <tr>
+    <td><img src="https://video-motion-customization.github.io/static/gifs3/ink_spreading/input.gif"></td>
+    <td><img src="https://video-motion-customization.github.io/static/gifs3/ink_spreading/flower.gif"></td>
+  </tr>
+  
+</table>
 
 ## Shoutouts
 VMC directly employs an open-source project on cascaded Video Diffusion Models, [Show-1](https://github.com/showlab/Show-1), along with [DeepFloyd IF](https://github.com/deep-floyd/IF).  
