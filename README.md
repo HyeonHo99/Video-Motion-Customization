@@ -1,8 +1,10 @@
 # Video-Motion-Customization
-This repository is the official implementation of ["VMC: One-Shot Video Motion Customization using Temporal Attention Adaption for Text-to-Video Diffusion Models."](#)
+This repository is the official implementation of [VMC](https://arxiv.org/abs/2312.00845).<br>
+[VMC: One-Shot Video Motion Customization using Temporal Attention Adaption for Text-to-Video Diffusion Models](https://arxiv.org/abs/2312.00845)
 <br>
 
 [![Project Website](https://img.shields.io/badge/Project-Website-orange)](https://video-motion-customization.github.io/)
+[![arXiv](https://img.shields.io/badge/arXiv-2312.00845-b31b1b.svg)](https://arxiv.org/abs/2312.00845)
 
 <p align="center">
 <img src="https://video-motion-customization.github.io/static/images/figure-overview.png" width="100%"/>  
