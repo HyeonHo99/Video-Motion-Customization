@@ -78,8 +78,11 @@ accelerate launch train_inference.py --config configs/car_forest.yml
 </table>
 
 ## Shoutouts
-VMC directly employs an open-source project on cascaded Video Diffusion Models, [Show-1](https://github.com/showlab/Show-1), along with [DeepFloyd IF](https://github.com/deep-floyd/IF).  
-Additionally, this code builds upon [Diffusers](https://github.com/huggingface/diffusers) and we referenced the code logic of [Tune-A-Video](https://github.com/showlab/Tune-A-Video)
+- VMC directly employs an open-source project on cascaded Video Diffusion Models, [Show-1](https://github.com/showlab/Show-1),  
+  along with [DeepFloyd IF](https://github.com/deep-floyd/IF).  
+- This code builds upon [Diffusers](https://github.com/huggingface/diffusers) and we referenced the code logic of [Tune-A-Video](https://github.com/showlab/Tune-A-Video).
+- We conducted evaluation against 4 great projects: [VideoComposer](https://arxiv.org/abs/2306.02018), [Gen-1](https://arxiv.org/abs/2302.03011), [Tune-A-Video](https://arxiv.org/abs/2212.11565), [Control-A-Video](https://arxiv.org/abs/2305.13840)
+  
 <br><i>Thanks all for open-sourcing!</i>
 
 
