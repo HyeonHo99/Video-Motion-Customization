@@ -77,6 +77,17 @@ accelerate launch train_inference.py --config configs/car_forest.yml
   
 </table>
 
+## Citation
+If you find our work interesting, please cite our paper.
+```bibtex
+@article{jeong2023vmc,
+  title={VMC: Video Motion Customization using Temporal Attention Adaption for Text-to-Video Diffusion Models},
+  author={Jeong, Hyeonho and Park, Geon Yeong and Ye, Jong Chul},
+  journal={arXiv preprint arXiv:2312.00845},
+  year={2023}
+}
+```
+
 ## Shoutouts
 - VMC directly employs an open-source project on cascaded Video Diffusion Models, [Show-1](https://github.com/showlab/Show-1),  
   along with [DeepFloyd IF](https://github.com/deep-floyd/IF).  
