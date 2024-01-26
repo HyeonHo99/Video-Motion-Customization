@@ -94,11 +94,29 @@ accelerate launch train_inference.py --config configs/car_forest.yml
     <td><img src="https://video-motion-customization.github.io/static/gifs3/car_forest/anime.gif"></td>
     <td><img src="https://video-motion-customization.github.io/static/style-transfer/plane_sky2/starry_van_gogh.gif"></td>
   </tr>
+</table>
+
+### Backward Motion Customization
+<table class="center">
   <tr>
-    <td><i>Starry Night, Vincent Van Gogh</i></td>
-    <td><i>Oil painting of flowers</i></td>
-    <td><i>Classic anime from 1990</i></td>
-    <td><i>Starry Night, Vincent Van Gogh</i></td>
+    <td style="text-align:center;"><b>Reversed Videos</b></td>
+    <td style="text-align:center;" colspan="1"><b>Output Videos</b></td>
+  </tr>
+  <tr>
+    <td><img src="https://video-motion-customization.github.io/static/backward-motion/ink_backward/reverse.gif"></td>
+    <td><img src="https://video-motion-customization.github.io/static/backward-motion/ink_backward/ink_water.gif"></td>
+  </tr>
+  <tr>
+    <td><img src="https://video-motion-customization.github.io/static/backward-motion/car_backward/reverse.gif"></td>
+    <td><img src="https://video-motion-customization.github.io/static/backward-motion/car_backward/tank_road.gif"></td>
+  </tr>
+  <tr>
+    <td><img src="https://video-motion-customization.github.io/static/backward-motion/car_forest_backward/reverse.gif"></td>
+    <td><img src="https://video-motion-customization.github.io/static/backward-motion/car_forest_backward/lamborghini_space.gif"></td>
+  </tr>
+  <tr>
+    <td><img src="https://video-motion-customization.github.io/static/gifs2/seagull_skyline_backward/input.gif"></td>
+    <td><img src="https://video-motion-customization.github.io/static/gifs2/seagull_skyline_backward/eagle_edge.gif"></td>
   </tr>
 </table>
 
