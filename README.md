@@ -80,6 +80,29 @@ accelerate launch train_inference.py --config configs/car_forest.yml
   
 </table>
 
+### Video Style Transfer
+<table class="center">
+  <tr>
+    <td><img src="https://video-motion-customization.github.io/static/gifs/child_bike/input.gif"></td>
+    <td><img src="https://video-motion-customization.github.io/static/gifs/car_turn/input.gif"></td>
+    <td><img src="https://video-motion-customization.github.io/static/gifs3/car_forest/input.gif"></td>
+    <td><img src="https://video-motion-customization.github.io/static/gifs4/plane_sky2/input.gif"></td>
+  </tr>
+  <tr>
+    <td><img src="https://video-motion-customization.github.io/static/style-transfer/child_bike/starry_van_gogh.gif"></td>
+    <td><img src="https://video-motion-customization.github.io/static/style-transfer/car_turn/oil_flowers.gif"></td>
+    <td><img src="https://video-motion-customization.github.io/static/gifs3/car_forest/anime.gif"></td>
+    <td><img src="https://video-motion-customization.github.io/static/style-transfer/plane_sky2/starry_van_gogh.gif"></td>
+  </tr>
+  <tr>
+    <td><i>Starry Night, Vincent Van Gogh</i></td>
+    <td><i>Oil painting of flowers</i></td>
+    <td><i>Classic anime from 1990</i></td>
+    <td><i>Starry Night, Vincent Van Gogh</i></td>
+  </tr>
+</table>
+
+
 ## Citation
 If you find our work interesting, please cite our paper.
 ```bibtex
