@@ -1,6 +1,6 @@
-# Video-Motion-Customization
+# Video-Motion-Customization (CVPR 2024)
 This repository is the official implementation of [VMC](https://arxiv.org/abs/2312.00845).<br>
-**[VMC: Video Motion Customization using Temporal Attention Adaption for Text-to-Video Diffusion Models](https://arxiv.org/abs/2312.00845)**
+**[CVPR 2024] [VMC: Video Motion Customization using Temporal Attention Adaption for Text-to-Video Diffusion Models](https://arxiv.org/abs/2312.00845)**
 <br>
 [Hyeonho Jeong*](https://scholar.google.com/citations?user=Pa7EfsEAAAAJ&hl=ko&oi=sra), 
 [Geon Yeong Park*](https://scholar.google.com/citations?user=HGF4a14AAAAJ&hl=ko&oi=sra), 
