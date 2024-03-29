@@ -2,21 +2,21 @@
 This repository is the official implementation of [VMC](https://arxiv.org/abs/2312.00845).<br>
 **[CVPR 2024] [VMC: Video Motion Customization using Temporal Attention Adaption for Text-to-Video Diffusion Models](https://arxiv.org/abs/2312.00845)**
 <br>
-[Hyeonho Jeong*](https://scholar.google.com/citations?user=Pa7EfsEAAAAJ&hl=ko&oi=sra), 
-[Geon Yeong Park*](https://scholar.google.com/citations?user=HGF4a14AAAAJ&hl=ko&oi=sra), 
-[Jong Chul Ye](https://scholar.google.com/citations?user=HNMjoNEAAAAJ&hl=ko&oi=sra), 
+[Hyeonho Jeong*](https://hyeonho99.github.io/),
+[Geon Yeong Park*](https://geonyeong-park.github.io/),
+[Jong Chul Ye](https://scholar.google.com/citations?user=HNMjoNEAAAAJ&hl=ko&oi=sra),
 
 [![Project Website](https://img.shields.io/badge/Project-Website-orange)](https://video-motion-customization.github.io/)
 [![arXiv](https://img.shields.io/badge/arXiv-2312.00845-b31b1b.svg)](https://arxiv.org/abs/2312.00845)
 
 <p align="center">
-<img src="https://video-motion-customization.github.io/static/images/figure-overview.png" width="100%"/>  
+<img src="https://video-motion-customization.github.io/static/images/figure-overview.png" width="100%"/>
 <br>
 <em>Given an input video with any type of motion patterns, our framework, VMC fine-tunes only the Keyframe Generation Module within hierarchical Video Diffusion Models for motion-customized video generation.</em>
 </p>
 
 ## News
-* [2023.11.30] Initial Code Release  
+* [2023.11.30] Initial Code Release
   (Additional codes will be uploaded.)
 
 ## Setup
@@ -26,7 +26,7 @@ This repository is the official implementation of [VMC](https://arxiv.org/abs/23
 pip install -r requirements.txt
 ```
 
-## Usage 
+## Usage
 
 The following command will run "train & inference" at the same time:
 
@@ -77,7 +77,7 @@ accelerate launch train_inference.py --config configs/car_forest.yml
     <td><img src="https://video-motion-customization.github.io/static/gifs3/ink_spreading/input.gif"></td>
     <td><img src="https://video-motion-customization.github.io/static/gifs3/ink_spreading/flower.gif"></td>
   </tr>
-  
+
 </table>
 
 ### Video Style Transfer
@@ -133,11 +133,11 @@ If you find our work interesting, please cite our paper.
 ```
 
 ## Shoutouts
-- VMC directly employs an open-source project on cascaded Video Diffusion Models, [Show-1](https://github.com/showlab/Show-1),  
-  along with [DeepFloyd IF](https://github.com/deep-floyd/IF).  
+- VMC directly employs an open-source project on cascaded Video Diffusion Models, [Show-1](https://github.com/showlab/Show-1),
+  along with [DeepFloyd IF](https://github.com/deep-floyd/IF).
 - This code builds upon [Diffusers](https://github.com/huggingface/diffusers) and we referenced the code logic of [Tune-A-Video](https://github.com/showlab/Tune-A-Video).
 - We conducted evaluation against 4 great projects: [VideoComposer](https://arxiv.org/abs/2306.02018), [Gen-1](https://arxiv.org/abs/2302.03011), [Tune-A-Video](https://arxiv.org/abs/2212.11565), [Control-A-Video](https://arxiv.org/abs/2305.13840)
-  
+
 <br><i>Thanks all for open-sourcing!</i>
 
 
